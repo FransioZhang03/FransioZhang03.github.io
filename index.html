@@ -3,6 +3,12 @@
     <title>
       Hello,&nbsp;World!
     </title>
+    <script>
+      function a()
+      {
+        document.getElementById("i").innerHTML="";
+      }
+    </script>
   </head>
   <body>
     <h3>
@@ -10,6 +16,6 @@
     </h3>
     <hr/>
     <input type="input" id="i">
-    <input type="button" value="Reset" onclick='document.getElementById("i").innerHTML=""; '>
+    <input type="button" value="Reset" onclick="a();">
   </body>
 </html>
